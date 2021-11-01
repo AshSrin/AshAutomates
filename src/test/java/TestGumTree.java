@@ -23,13 +23,15 @@ public class TestGumTree extends BaseClass {
 
     @BeforeMethod(alwaysRun = true)
     public void beforeEachTest(Method method) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "/Users/sriniganesan/Downloads/Proj/chromedriver");
+        String dir=System.getProperty("user.dir");
+        System.out.println(dir);
+        System.setProperty("webdriver.chrome.driver", dir+"/chromedriver");
         driver = new ChromeDriver();
         driver.get("https://gumtree.com.au");
         SearchHeaderClassObj = new SearchHeaderClass(driver);
         SearchResultsClassObj = new SearchResultsClass(driver);
         AdContentPageClassObj = new AdContentPageClass(driver);
-        // HomePageClassObj= new HomePageClass();
+         HomePageClassObj= new HomePageClass(driver);
 
     }
 
