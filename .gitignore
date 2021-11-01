@@ -1,22 +1,7 @@
 
-test-output/testng-failed.xml
-test-output/testng-results.xml
-test-output/Default Suite/Proj.xml
-test-output/Default Suite/testng-failed.xml
-test-output/old/index.html
-test-output/junitreports/TEST-TestGumTree.xml
-test-output/old/Default Suite/methods-alphabetical.html
-test-output/old/Default Suite/methods.html
-test-output/old/Default Suite/toc.html
-test-output/old/index.html
-test-output/testng-results.xml
-test-output/Default Suite/Proj.xml
-test-output/testng-results.xml
-test-output/old/Default Suite/methods.html
-test-output/Default Suite/Proj.html
-test-output/Default Suite/Proj.xml
-test-output/index.html
-test-output/junitreports/TEST-TestGumTree.xml
-test-output/old/Default Suite/methods-alphabetical.html
-test-output/old/Default Suite/methods.html
-test-output/testng-results.xml
+*/target/*
+*/test-output/*
+.idea
+*.iws
+*.iml
+*.ipr

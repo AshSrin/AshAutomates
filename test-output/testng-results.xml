@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-01T15:38:05 AEDT" name="Default Suite" finished-at="2021-11-01T15:39:05 AEDT" duration-ms="60139">
+  <suite started-at="2021-11-01T19:29:41 AEDT" name="Default Suite" finished-at="2021-11-01T19:30:44 AEDT" duration-ms="62634">
     <groups>
     </groups>
-    <test started-at="2021-11-01T15:38:05 AEDT" name="Proj" finished-at="2021-11-01T15:39:05 AEDT" duration-ms="60139">
+    <test started-at="2021-11-01T19:29:41 AEDT" name="Proj" finished-at="2021-11-01T19:30:44 AEDT" duration-ms="62634">
       <class name="TestGumTree">
-        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:TestGumTree@12028586]" started-at="2021-11-01T15:38:05 AEDT" name="beforeEachTest" finished-at="2021-11-01T15:38:31 AEDT" duration-ms="25808" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:TestGumTree@70beb599]" started-at="2021-11-01T19:29:41 AEDT" name="beforeEachTest" finished-at="2021-11-01T19:30:15 AEDT" duration-ms="33787" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method signature="TestSearch()[pri:0, instance:TestGumTree@12028586]" started-at="2021-11-01T15:38:31 AEDT" name="TestSearch" finished-at="2021-11-01T15:39:03 AEDT" duration-ms="31617" status="PASS">
+        <test-method signature="TestSearch()[pri:0, instance:TestGumTree@70beb599]" started-at="2021-11-01T19:30:15 AEDT" name="TestSearch" finished-at="2021-11-01T19:30:41 AEDT" duration-ms="26181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSearch -->
-        <test-method is-config="true" signature="completedTest()[pri:0, instance:TestGumTree@12028586]" started-at="2021-11-01T15:39:03 AEDT" name="completedTest" finished-at="2021-11-01T15:39:05 AEDT" duration-ms="2609" status="PASS">
+        <test-method is-config="true" signature="completedTest()[pri:0, instance:TestGumTree@70beb599]" started-at="2021-11-01T19:30:41 AEDT" name="completedTest" finished-at="2021-11-01T19:30:44 AEDT" duration-ms="2588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completedTest -->
